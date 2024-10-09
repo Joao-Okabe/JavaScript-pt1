@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolar e euro</title>
+</head>
+<body>
+    <script>
+        var real, euro, dolar, cotad, cotae;
+        real=parseFloat(prompt("Digite quantos reais serão convertidos: "));
+        cotad=parseFloat(prompt("Digite a cotação do dolar: "));
+        cotae=parseFloat(prompt("Digite a cotação do euro: "));
+        dolar=real/cotad;
+        euro=real/cotae;
+        document.write(real+" reais vão se tornar "+ dolar , "doláres e por fim " +euro, " euros" )
+    </script>
+</body>
+</html>
